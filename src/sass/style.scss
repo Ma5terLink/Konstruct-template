@@ -36,11 +36,19 @@ a {
         text-decoration: none;
     }
 }
+
+.divider {
+    width: 50px;
+    height: 2px;
+    background-color: #00a4e5;
+}
 // h1, h2, h3, h4, h5, h6 {
 //     margin: 0;
 //     padding: 0;
 // }
 @import 'blocks/header';
+@import 'blocks/navbar';
+@import 'blocks/about';
 
 @import 'blocks/pageup';
 @import 'blocks/media';

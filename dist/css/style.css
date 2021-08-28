@@ -428,6 +428,12 @@ a:hover {
   text-decoration: none;
 }
 
+.divider {
+  width: 50px;
+  height: 2px;
+  background-color: #00a4e5;
+}
+
 .header {
   width: 1440px;
   min-height: 768px;
@@ -468,6 +474,122 @@ a:hover {
   letter-spacing: 3.7px;
   color: #FFFFFF;
   text-transform: uppercase;
+}
+
+.navbar {
+  display: flex;
+  width: 1440px;
+  height: 65px;
+  margin: 0 auto;
+  border-bottom: 1px solid #e6e6e6;
+}
+.navbar__logo {
+  padding: 24px 0 0 251px;
+}
+.navbar__wrapper {
+  display: flex;
+  width: 410px;
+  padding-top: 25px;
+  margin-left: 451px;
+  justify-content: space-between;
+}
+.navbar__link a {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1.09091px;
+  color: #48555B;
+  text-transform: uppercase;
+}
+.navbar__link a:hover {
+  color: #00A4E5;
+  text-decoration: none;
+}
+.navbar__link.active a {
+  color: #00a4e5;
+}
+
+.about {
+  margin-top: 58px;
+}
+.about__title {
+  padding-top: 1px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 2.30625px;
+  color: #48555B;
+  text-transform: uppercase;
+}
+.about .divider {
+  margin: 0 auto;
+  margin-top: 11px;
+}
+.about__wrapper {
+  display: flex;
+  padding-top: 53px;
+}
+.about__infoBlock {
+  margin-right: 77px;
+}
+.about__infoBlock-title {
+  width: 404px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.1875px;
+  color: #48555B;
+}
+.about__infoBlock-title span {
+  font-weight: bold;
+  color: #16ace8;
+}
+.about__infoBlock-descr {
+  padding-top: 30px;
+  width: 405px;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 0.1875px;
+  color: #48555B;
+}
+.about__imgBlock {
+  display: flex;
+  justify-content: space-between;
+}
+.about__imgBlock-image {
+  position: relative;
+  width: 140px;
+  padding-top: 30px;
+  margin-right: 20px;
+}
+.about__imgBlock-image h3 {
+  position: absolute;
+  top: 45px;
+  left: 14px;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.1875px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.about__imgBlock-image img {
+  width: 140px;
+}
+.about__imgBlock-image:nth-child(1) h3 {
+  width: 68px;
+}
+.about__imgBlock-image:nth-child(2) h3 {
+  width: 110px;
+}
+.about__imgBlock-image:nth-child(3) {
+  margin-right: 0px;
+}
+.about__imgBlock-image:nth-child(3) h3 {
+  width: 76px;
 }
 
 .pageup {
