@@ -1,0 +1,47 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+
+@import 'base/mixins';
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container {
+    position: relative;    
+    max-width: 940px;
+    margin: 0 auto;    
+}
+
+
+:root {
+    //colors
+    --color-black: #000;
+    --color-white: #fff;
+
+    //font sizes
+
+    //line hights
+
+}
+
+a {
+    color: var(--color-black);
+    &:hover {
+        text-decoration: none;
+    }
+}
+// h1, h2, h3, h4, h5, h6 {
+//     margin: 0;
+//     padding: 0;
+// }
+
+
+@import 'blocks/txtFontStyles';
+@import 'blocks/policy';
+@import 'blocks/pageup';
+@import 'blocks/media';
