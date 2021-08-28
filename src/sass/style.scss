@@ -30,8 +30,9 @@
 }
 
 a {
-    color: var(--color-black);
+    color: var(--color-white);
     &:hover {
+        color: var(--color-white);
         text-decoration: none;
     }
 }
@@ -39,9 +40,7 @@ a {
 //     margin: 0;
 //     padding: 0;
 // }
+@import 'blocks/header';
 
-
-@import 'blocks/txtFontStyles';
-@import 'blocks/policy';
 @import 'blocks/pageup';
 @import 'blocks/media';
