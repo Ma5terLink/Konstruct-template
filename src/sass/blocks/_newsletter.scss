@@ -1,0 +1,42 @@
+.newsletter {
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #171819;
+    &__wrapper {
+        display: flex;
+        width: 685px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    &__text {
+        width: 218px;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 30px;
+        align-self: center;
+        letter-spacing: 0.846154px;
+        color: #FFFFFF;
+    }
+    &__email {
+        width: 250px;
+        height: 40px;
+        margin-left: 70px;
+        padding: 2px 10px;
+        border: none;
+    }
+    &__btn {
+        display: block;
+        padding: 11px 49px;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
+        background-color: #00A4E5;
+        text-transform: uppercase;
+        &:hover {
+            text-shadow: 2px 2px 4px var(--color-white);
+        }
+    }
+}

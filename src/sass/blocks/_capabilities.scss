@@ -25,22 +25,19 @@
     }
     &__btn {
         margin-left: 34px;
-        span {
+        a {
             display: block;
+            width: 150px;
+            padding: 11px 29px;
+            font-weight: bold;
+            font-size: 13px;
+            line-height: 18px;
+            text-align: center;
+            letter-spacing: 0.5px;
+            color: #FFFFFF;
             background-color: #00A4E5;
-            a {
-                display: block;
-                width: 150px;
-                padding: 11px 29px;
-                font-weight: bold;
-                font-size: 13px;
-                line-height: 18px;
-                text-align: center;
-                letter-spacing: 0.5px;
-                color: #FFFFFF;
-                &:hover {
-                    text-shadow: 2px 2px 4px var(--color-white);
-                }
+            &:hover {
+                text-shadow: 2px 2px 4px var(--color-white);
             }
         }
     }
