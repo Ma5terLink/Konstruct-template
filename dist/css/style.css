@@ -732,7 +732,7 @@ a:hover {
 .newsletter__email {
   width: 250px;
   height: 40px;
-  margin-left: 70px;
+  margin-left: 68px;
   padding: 2px 10px;
   border: none;
 }
@@ -749,6 +749,128 @@ a:hover {
 }
 .newsletter__btn:hover {
   text-shadow: 2px 2px 4px var(--color-white);
+}
+
+.footer {
+  width: 1440px;
+  height: 240px;
+  margin: 0 auto;
+  background-color: #141A20;
+}
+.footer__wrapper {
+  display: flex;
+}
+.footer__company {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding-top: 42px;
+}
+.footer__company-title {
+  display: block;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.footer__company-logo {
+  display: block;
+  margin-top: 19px;
+}
+.footer__company-descr {
+  padding-top: 15px;
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.85px;
+  color: #FFFFFF;
+}
+.footer__links {
+  padding-top: 42px;
+  margin-left: 71px;
+}
+.footer__links-title {
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.footer__links-colsWrapper {
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+.footer__links-col1 ul, .footer__links-col2 ul, .footer__links-col3 ul {
+  list-style: none;
+}
+.footer__links-col1 ul li, .footer__links-col2 ul li, .footer__links-col3 ul li {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 25px;
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.footer__links-col1 ul li:hover, .footer__links-col2 ul li:hover, .footer__links-col3 ul li:hover {
+  text-shadow: 2px 2px 4px #fff;
+}
+.footer__links-col2 {
+  margin-left: 34px;
+}
+.footer__links-col3 {
+  margin-left: 38px;
+}
+.footer__contact {
+  padding-top: 42px;
+  margin-left: 58px;
+}
+.footer__contact-title {
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.footer__contact-address, .footer__contact-phone, .footer__contact-email {
+  padding-top: 15px;
+  width: 141px;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
+}
+.footer__contact-address:hover, .footer__contact-phone:hover, .footer__contact-email:hover {
+  text-shadow: 2px 2px 4px #fff;
+}
+.footer__socials {
+  display: flex;
+  width: 87px;
+  height: 13px;
+  margin-left: 46px;
+  margin-top: 72px;
+  justify-content: space-between;
+}
+.footer__socials a {
+  width: 12px;
+}
+.footer__socials a svg path {
+  fill: #fff;
+}
+.footer__copyrights {
+  width: 1440px;
+  height: 60px;
+  margin: 0 auto;
+  background-color: #171819;
+}
+.footer__copyrights-title {
+  width: 310px;
+  padding-top: 21px;
+  margin: 0 auto;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
 }
 
 .pageup {

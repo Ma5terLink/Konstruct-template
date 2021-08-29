@@ -1,0 +1,137 @@
+.footer {
+    width: 1440px;
+    height: 240px;
+    margin: 0 auto;
+    background-color: #141A20;
+    &__wrapper {
+        display: flex;
+    }
+    &__company {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        padding-top: 42px;
+        &-title {
+            display: block;
+            font-size: 11px;
+            line-height: 15px;
+            letter-spacing: 0.846154px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+        }
+        &-logo {
+            display: block;
+            margin-top: 19px;
+        }
+        &-descr {
+            padding-top: 15px;
+            font-size: 11px;
+            line-height: 19px;
+            letter-spacing: 0.85px;
+            color: #FFFFFF;
+        }
+    }
+
+
+    &__links {
+        padding-top: 42px;
+        margin-left: 71px;
+        &-title {
+            font-size: 11px;
+            line-height: 15px;
+            letter-spacing: 0.846154px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+        }
+        &-colsWrapper {
+            display: flex;
+            padding-top: 10px;
+            justify-content: space-between;
+        }
+        &-col1, &-col2, &-col3 {
+            ul {
+                list-style: none;
+                li {
+
+                    font-weight: 600;
+                    font-size: 11px;
+                    line-height: 25px;
+                    letter-spacing: 0.846154px;
+                    color: #FFFFFF;
+                    text-transform: uppercase;
+                    &:hover {
+                        text-shadow: 2px 2px 4px #fff;
+                    }
+                }
+            }   
+        }
+        &-col2 {
+            margin-left: 34px;
+        }
+        &-col3 {
+            margin-left: 38px;  
+        }
+    }
+
+
+
+
+    &__contact {
+        padding-top: 42px;
+        margin-left: 58px;
+        &-title {
+            font-size: 11px;
+            line-height: 15px;
+            letter-spacing: 0.846154px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+        }
+        &-address, &-phone, &-email {
+            padding-top: 15px;
+            width: 141px;
+            font-size: 11px;
+            line-height: 16px;
+            letter-spacing: 0.846154px;
+            color: #FFFFFF;
+            &:hover {
+                text-shadow: 2px 2px 4px #fff;
+            }
+        }
+    }
+
+
+
+
+    &__socials {
+        display: flex;
+        width: 87px;
+        height: 13px;
+        margin-left: 46px;
+        margin-top: 72px;
+        justify-content: space-between;
+        a {
+            width: 12px;
+            svg path {
+                fill: #fff;
+                }
+        }
+    }
+
+
+
+    &__copyrights {
+        width: 1440px;
+        height: 60px;
+        margin: 0 auto;
+        background-color: #171819;
+        &-title {
+            width: 310px;
+            padding-top: 21px;
+            margin: 0 auto;
+            font-size: 11px;
+            line-height: 15px;
+            letter-spacing: 0.846154px;
+            color: #FFFFFF;
+        }
+    }
+}
