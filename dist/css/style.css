@@ -716,6 +716,7 @@ a:hover {
 }
 .newsletter__wrapper {
   display: flex;
+  position: relative;
   width: 685px;
   margin: 0 auto;
   padding-top: 30px;
@@ -730,6 +731,7 @@ a:hover {
   color: #FFFFFF;
 }
 .newsletter__email {
+  position: absolute;
   width: 250px;
   height: 40px;
   margin-left: 68px;
@@ -737,7 +739,8 @@ a:hover {
   border: none;
 }
 .newsletter__btn {
-  display: block;
+  position: relative;
+  left: 318px;
   padding: 11px 49px;
   font-weight: bold;
   font-size: 13px;
@@ -746,6 +749,7 @@ a:hover {
   color: #FFFFFF;
   background-color: #00A4E5;
   text-transform: uppercase;
+  border: none;
 }
 .newsletter__btn:hover {
   text-shadow: 2px 2px 4px var(--color-white);

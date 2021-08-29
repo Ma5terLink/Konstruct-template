@@ -5,6 +5,7 @@
     background-color: #171819;
     &__wrapper {
         display: flex;
+        position: relative;
         width: 685px;
         margin: 0 auto;
         padding-top: 30px;
@@ -19,6 +20,7 @@
         color: #FFFFFF;
     }
     &__email {
+        position: absolute;
         width: 250px;
         height: 40px;
         margin-left: 68px;
@@ -26,7 +28,9 @@
         border: none;
     }
     &__btn {
-        display: block;
+        // display: block;
+        position: relative;
+        left: 318px;
         padding: 11px 49px;
         font-weight: bold;
         font-size: 13px;
@@ -35,6 +39,8 @@
         color: #FFFFFF;
         background-color: #00A4E5;
         text-transform: uppercase;
+
+        border: none;
         &:hover {
             text-shadow: 2px 2px 4px var(--color-white);
         }
